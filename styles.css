@@ -306,3 +306,13 @@ h3 {
   .publication-list article { grid-template-columns: 1fr; gap: 5px; }
   .footer-inner { align-items: flex-start; flex-direction: column; justify-content: center; }
 }
+
+.profile-photo {
+  width: 170px;
+  height: 170px;
+  object-fit: cover;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto 25px;
+  border: 3px solid var(--line);
+}
