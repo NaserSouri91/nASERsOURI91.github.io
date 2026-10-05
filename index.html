@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Naser Souri — Power Electronics & Control Engineer specializing in grid-connected converters, microgrids, EMT simulation, HIL, and data-center power systems." />
+  <title>Naser Souri | Power Electronics & Control Engineer</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Primary navigation">
+      <a class="brand" href="#top">NS</a>
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#expertise">Expertise</a>
+        <a href="#work">Work</a>
+        <a href="#publications">Publications</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <button id="themeToggle" class="theme-toggle" type="button" aria-label="Toggle theme">◐</button>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <p class="eyebrow">Power Electronics • Converter Control • Grid Integration</p>
+          <h1>Naser Souri</h1>
+          <p class="hero-title">
+            Ph.D. researcher and power electronics control engineer working on
+            grid-connected converters, microgrids, EMT simulation, HIL, and
+            next-generation data-center power systems.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#work">View Engineering Work</a>
+            <a class="button secondary" href="resume.pdf" target="_blank" rel="noopener">View Résumé</a>
+          </div>
+          <div class="quick-facts" aria-label="Highlights">
+            <span>Virginia Tech Ph.D.</span>
+            <span>GE Vernova + Claros</span>
+            <span>Python / MATLAB / PSCAD / RTDS</span>
+          </div>
+        </div>
+
+        <aside class="hero-card">
+          <p class="card-label">Focus</p>
+          <ul>
+            <li>Grid-forming & grid-following inverter control</li>
+            <li>AC/DC microgrids and converter stability</li>
+            <li>EMT and power-quality studies</li>
+            <li>Real-time simulation & PHIL/HIL</li>
+            <li>AI data-center power architectures</li>
+          </ul>
+        </aside>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container split">
+        <div>
+          <p class="section-kicker">About</p>
+          <h2>Power systems research translated into practical converter-control engineering.</h2>
+        </div>
+        <div class="body-copy">
+          <p>
+            I am a Ph.D. candidate in Electrical Engineering at Virginia Tech.
+            My work focuses on control and stability of power converters connected
+            to AC and DC grids, with experience spanning grid-forming/grid-following
+            control, microgrids, data-center power systems, power quality, EMT studies,
+            and hardware-in-the-loop validation.
+          </p>
+          <p>
+            I have worked across research and industry environments, including
+            power-electronics control engineering internships and real-time simulation
+            of large electrical systems. I also build engineering automation tools in
+            Python for analysis, compliance testing, and waveform post-processing.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="expertise" class="section section-alt">
+      <div class="container">
+        <p class="section-kicker">Technical Expertise</p>
+        <h2>Engineering stack</h2>
+
+        <div class="cards three">
+          <article class="card">
+            <h3>Power Electronics</h3>
+            <p>Grid-tied inverters, interleaved buck, LLC/CLLC, DAB, SiC/GaN, EMI/EMC, motor drives.</p>
+          </article>
+
+          <article class="card">
+            <h3>Control & Grid Integration</h3>
+            <p>GFM/GFL control, droop control, active damping, resonance mitigation, microgrids, stability studies.</p>
+          </article>
+
+          <article class="card">
+            <h3>Simulation & HIL</h3>
+            <p>MATLAB/Simulink, PSCAD, RSCAD/RTDS, EMTP, PLECS, PSIM, PSpice, Typhoon HIL.</p>
+          </article>
+
+          <article class="card">
+            <h3>Data-Center Power</h3>
+            <p>800-V and 48-V DC architectures, large-load transients, busbars, BBU/CBU, BESS/PCS interactions.</p>
+          </article>
+
+          <article class="card">
+            <h3>Programming</h3>
+            <p>Python with NumPy, Pandas, and SciPy; C/C++; automated waveform analysis and engineering workflows.</p>
+          </article>
+
+          <article class="card">
+            <h3>Embedded & Laboratory</h3>
+            <p>ARM, PIC, dsPIC, DSP; oscilloscopes, power analyzers, function generators, PHIL/HIL test setups.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="work" class="section">
+      <div class="container">
+        <p class="section-kicker">Selected Engineering Work</p>
+        <h2>What I have worked on</h2>
+        <p class="section-intro">
+          These are portfolio summaries of technical areas from my research and professional experience.
+          Public repositories should contain only independently written, non-confidential implementations.
+        </p>
+
+        <div class="project-grid">
+          <article class="project-card">
+            <div class="project-meta">Converter Control</div>
+            <h3>Grid-Forming & Grid-Following Inverter Control</h3>
+            <p>
+              Development and evaluation of GFM/GFL control strategies, including
+              simplification of algorithms for implementation-oriented workflows.
+            </p>
+            <div class="tags"><span>MATLAB</span><span>Control</span><span>Grid Integration</span></div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-meta">Microgrids</div>
+            <h3>DC Microgrid Power Sharing & Stability</h3>
+            <p>
+              Droop-based converter control, current sharing, circulating-current
+              suppression, and improved dynamic power sharing in DC microgrids.
+            </p>
+            <div class="tags"><span>DC-DC</span><span>Droop Control</span><span>Stability</span></div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-meta">Real-Time Simulation</div>
+            <h3>Large-Scale Data-Center EMT Models</h3>
+            <p>
+              Real-time and EMT modeling of large data-center electrical systems,
+              including rapid load variation, grid interaction, and transient studies.
+            </p>
+            <div class="tags"><span>PSCAD</span><span>RTDS</span><span>EMT</span></div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-meta">Automation</div>
+            <h3>Python Engineering Analysis Tooling</h3>
+            <p>
+              Python workflows for waveform post-processing, engineering analysis,
+              compliance-oriented test automation, and reproducible reporting.
+            </p>
+            <div class="tags"><span>Python</span><span>NumPy</span><span>Pandas</span></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt">
+      <div class="container">
+        <p class="section-kicker">Recommended Public Repositories</p>
+        <h2>Projects to publish on GitHub</h2>
+
+        <div class="repo-list">
+          <article>
+            <code>grid-forming-inverter-control</code>
+            <p>Independent MATLAB/Python demonstration of GFM/GFL concepts with plots, equations, and synthetic test cases.</p>
+          </article>
+          <article>
+            <code>dc-microgrid-droop-control</code>
+            <p>Reproducible simulation based on your published microgrid research, with clear derivation and validation plots.</p>
+          </article>
+          <article>
+            <code>lcl-active-damping-demo</code>
+            <p>Educational implementation of capacitor-voltage active damping for an LCL-filtered grid-tied inverter.</p>
+          </article>
+          <article>
+            <code>power-waveform-analysis-python</code>
+            <p>Original Python toolkit using synthetic/public waveforms for RMS, THD, transient metrics, plotting, and report generation.</p>
+          </article>
+        </div>
+
+        <p class="notice">
+          Important: do not upload proprietary GE Vernova, Claros, Google, Virginia Tech sponsor,
+          or other employer/customer source code, models, datasets, internal standards, or confidential results.
+        </p>
+      </div>
+    </section>
+
+    <section id="publications" class="section">
+      <div class="container">
+        <p class="section-kicker">Selected Publications</p>
+        <h2>Research</h2>
+
+        <div class="publication-list">
+          <article>
+            <p class="pub-year">2026</p>
+            <div>
+              <h3>Harmonic Mitigation and Switching Frequency Reduction in LCL-Filtered Grid-Tied Converters</h3>
+              <p>IEEE Transactions on Power Electronics</p>
+              <a href="https://doi.org/10.1109/TPEL.2026.3697501" target="_blank" rel="noopener">DOI ↗</a>
+            </div>
+          </article>
+
+          <article>
+            <p class="pub-year">2025</p>
+            <div>
+              <h3>Hybrid droop-based control for parallel operation of DC-DC converters in a DC microgrid</h3>
+              <p>IEEE Transactions on Energy Conversion</p>
+              <a href="https://doi.org/10.1109/TEC.2025.3626451" target="_blank" rel="noopener">DOI ↗</a>
+            </div>
+          </article>
+
+          <article>
+            <p class="pub-year">2024</p>
+            <div>
+              <h3>Stability enhancement of LCL-type grid-following inverters using capacitor voltage active damping</h3>
+              <p>IEEE Power & Energy Society General Meeting</p>
+              <a href="https://doi.org/10.1109/PESGM51994.2024.10688899" target="_blank" rel="noopener">DOI ↗</a>
+            </div>
+          </article>
+
+          <article>
+            <p class="pub-year">2024</p>
+            <div>
+              <h3>Hybrid machine learning approach for cyberattack mitigation of parallel converters in a DC microgrid</h3>
+              <p>IEEE Industrial Electronics Society (IECON)</p>
+              <a href="https://doi.org/10.1109/IECON55916.2024.10905595" target="_blank" rel="noopener">DOI ↗</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+      <div class="container contact-box">
+        <div>
+          <p class="section-kicker">Contact</p>
+          <h2>Open to engineering and research opportunities.</h2>
+          <p>
+            Interested in power electronics, converter controls, grid integration,
+            data-center power, BESS/PCS, EMT studies, and real-time simulation roles.
+          </p>
+        </div>
+        <div class="contact-actions">
+          <a class="button primary" href="mailto:nsouri@vt.edu">nsouri@vt.edu</a>
+          <a class="button secondary" href="https://www.linkedin.com/in/naser-souri-6545e/" target="_blank" rel="noopener">LinkedIn</a>
+          <a class="button secondary" href="https://github.com/NaserSouri91" target="_blank" rel="noopener">GitHub</a>
+          <a class="button secondary" href="https://scholar.google.com/citations?user=_h7AIdEAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <span>© <span id="year"></span> Naser Souri</span>
+      <span>Built for GitHub Pages</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
